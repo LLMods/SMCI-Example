@@ -1,0 +1,8 @@
+# plugin.yml
+#
+# This file is required in order for the plugin to work
+---
+ name: SMCI-Example
+ version: 0.0.1
+ author: cincospenguinos
+ main: org.smci.example.Main
