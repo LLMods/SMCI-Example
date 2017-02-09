@@ -13,10 +13,12 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        // This logs directly to the server console. This will only show up if the server
+        // was able to load
         Logger.getLogger("minecraft").log(Level.INFO, "[SMCI-Example] Hello, world!");
     }
 
     public void onDisable(){
-        Logger.getLogger("minecraft").log(Level.INFO, "[INFO] Goodbye, world!");
+        Logger.getLogger("minecraft").log(Level.INFO, "[SMCI-Example] Goodbye, world!");
     }
 }
